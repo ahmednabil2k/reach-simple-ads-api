@@ -19,6 +19,9 @@ controllers inherit from ```Modules\Ads\Http\Controllers\Controller```.
 
 ## Assumptions
 
+- Added some advertisers from ```AdvertisersSeeder``` inside
+  ```Modules\Ads\Database\Seeders```
+
 - When creating a new Ads, Advertiser is not required by default because the advertiser will
 be assigned on the ads later.
  
