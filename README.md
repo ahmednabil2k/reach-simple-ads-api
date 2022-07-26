@@ -12,6 +12,11 @@ and the architecture cleaner and scalable.
   
 - Api Url is prefixed with ```v1``` like ``` https://domain.com/api/v1/{uri}```  
 
+- By following DRY principle, 
+Created some helpful traits ```ApiResponder, ApiCrudResources``` to utilize
+repeated work and used them inside the base controller that all other 
+controllers inherit from ```Modules\Ads\Http\Controllers\Controller```.  
+
 ## Assumptions
 
 - When creating a new Ads, Advertiser is not required by default because the advertiser will
